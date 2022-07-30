@@ -1,0 +1,7 @@
+C:\Users\Edilaine\Desktop\JobRotation\Exerc01\Exerc01\bin\Debug\Exerc01.exe.config
+C:\Users\Edilaine\Desktop\JobRotation\Exerc01\Exerc01\bin\Debug\Exerc01.exe
+C:\Users\Edilaine\Desktop\JobRotation\Exerc01\Exerc01\bin\Debug\Exerc01.pdb
+C:\Users\Edilaine\Desktop\JobRotation\Exerc01\Exerc01\obj\Debug\Exerc01.csprojAssemblyReference.cache
+C:\Users\Edilaine\Desktop\JobRotation\Exerc01\Exerc01\obj\Debug\Exerc01.csproj.CoreCompileInputs.cache
+C:\Users\Edilaine\Desktop\JobRotation\Exerc01\Exerc01\obj\Debug\Exerc01.exe
+C:\Users\Edilaine\Desktop\JobRotation\Exerc01\Exerc01\obj\Debug\Exerc01.pdb

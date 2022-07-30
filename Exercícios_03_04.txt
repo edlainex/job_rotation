@@ -1,0 +1,63 @@
+Exercícios 03 e 04
+
+----------- 3) Descubra a lógica e complete o próximo elemento:
+R.:
+a) 1, 3, 5, 7, _9_ - É uma sequência de números ímpares ou a soma de +2 a cada número.
+
+b) 2, 4, 8, 16, 32, 64, __128__ - Multiplica cada número por 2.
+
+c) 0, 1, 4, 9, 16, 25, 36, __49__ - Soma utilizando uma outra sequência de números ímpares.
+
+d) 4, 16, 36, 64, __100__ - Potenciação de números pares, iniciando pelo 2.
+
+e) 1, 1, 2, 3, 5, 8, __13__ - Soma dos dois elemento anteriores, sequência de Fibonacci.
+
+f) 2,10, 12, 16, 17, 18, 19, __200__ - Sequência baseada pela letra inicial do número escrito por extenso, nesse caso pela letra D.
+
+
+----------- 4) Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia. O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h. Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+IMPORTANTE:
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+R.:
+Distância entre Ribeirão Preto e Franca = 100km
+2 pedágios para o caminhão passar = 10 minutos.
+Carro de Ribeirão Preto = 110 km/h
+Caminhão de Franca = 80 km/h
+Primeiro coloca-se o ponto de referência em Ribeirão Preto para conseguir determinar o local em que o caminhão e o carro se cruzam.
+
+S = S0 + v.t
+
+Equação horária do carro:
+x1 = v1.t
+
+Do caminhão:
+x2 = 100km - v2.t
+
+Tempo de viagem do caminhão sem os obstáculos:
+t1 = 100km / 80km/h = 1,25h
+
+Tempo deviagem do caminhão com os obstáculos = 10 munutos (ou 0,17 horas) = 1,25h + 0,17h = 1,42.
+Sua velocidade média será:
+t2 = 100km/1,42h = 70,6km/h
+
+Igualando ambas as equações hhorárias, encontra-se o onto em que o carro e o caminhão se cruzam:
+t = s1/v1
+
+t = x2 - 100Km / -v1
+
+x1 = x2 = x/v1 = x-100Km / -v2
+
+-v2.x = v1x - v1.100km
+
+x = v1.100 / v1+v2 = 110km/h.100km / 110km/h+70,6km/h
+
+t = 60,9 km
+
+A distância da cidade de Ribeirão Preto em que o carro e o caminhão se cruzam será 60,9 km, os dois estão à mesma distância.
